@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: antiquewhite;
+    padding: 16px 0;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: rgb(10, 44, 75);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header li {
+    display: inline;
+    text-decoration: dotted;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #f936bf;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article a {
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+}
+
+#sports {
+    background: linear-gradient(to right, #2fa90651, #33e610)
+}
+
+#economy {
+    background: linear-gradient(to left,#efe788a1,#fbf705);
+}
+
+#entertainment {
+    background: linear-gradient(to right, #04f5fd,#1021b9d1);
+}
+
+#technology {
+    background: linear-gradient(to left, #f81303,#9a4343d1);
+}
